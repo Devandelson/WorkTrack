@@ -1,5 +1,5 @@
 import jwt from "jsonwebtoken";
-import { tokenValid } from '../index';
+import { tokenValid } from '../index.js';
 
 // Supongamos que los refresh tokens válidos están en DB:
 export default async function refreshTokens() {

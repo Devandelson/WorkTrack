@@ -1,5 +1,5 @@
 import { Router } from "express";
-import * as employeeController from "../controllers/employee.controller";
+import * as employeeController from "../controllers/employee.controller.js";
 const employeeRouter = Router();
 
 employeeRouter.get(`/`, employeeController.getEmployees);

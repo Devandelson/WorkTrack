@@ -1,13 +1,13 @@
 import express from 'express';
 import cors from 'cors';
-import conex from './config/db';
-import indexRouter from './routes/index.routes';
-import routNotFound from './middleware/routNotFound';
-import protectionEndpoint from './middleware/protectionEnpoint';
+import conex from './config/db.js';
+import indexRouter from './routes/index.routes.js';
+import routNotFound from './middleware/routNotFound.js';
+import protectionEndpoint from './middleware/protectionEnpoint.js';
 import Jwt from "jsonwebtoken";
 import type { JwtPayload } from "jsonwebtoken";
 import type { Request, Response } from "express";
-import refreshTokens from './middleware/refreshToken';
+import refreshTokens from './middleware/refreshToken.js';
 import helmet from 'helmet';
 import rateLimit from "express-rate-limit";
 

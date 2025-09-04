@@ -2,8 +2,8 @@ import type { Request, Response, NextFunction } from "express";
 import Jwt from "jsonwebtoken";
 import type { JwtPayload } from "jsonwebtoken";
 import dotenv from 'dotenv';
-import refreshTokens from './refreshToken';
-import { tokenValid } from '../index';
+import refreshTokens from './refreshToken.js';
+import { tokenValid } from '../index.js';
 
 dotenv.config();
 

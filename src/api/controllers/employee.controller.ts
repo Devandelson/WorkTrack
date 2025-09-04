@@ -1,4 +1,4 @@
-import * as employeeService from "../services/employee.service";
+import * as employeeService from "../services/employee.service.js";
 import type { Request, Response } from "express";
 
 interface empleadoController {

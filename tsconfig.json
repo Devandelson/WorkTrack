@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "target": "ES2019", // versión de JS de salida
-    "module": "CommonJS", // módulo compatible con Node
+    "target": "ESNext", // versión de JS de salida
+    "module": "ES2020", // módulo compatible con Node
     "rootDir": "src", // carpeta de entrada
     "outDir": "dist", // carpeta de salida
     "esModuleInterop": true, // compatibilidad con import/export
-    "strict": true // buenas prácticas
+    "strict": true, // buenas prácticas
+    "moduleResolution": "node",
+    "skipLibCheck": true
   },
   "include": ["src/api/**/*"],
  "exclude": [

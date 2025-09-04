@@ -1,4 +1,4 @@
-import conex from '../config/db';
+import conex from '../config/db.js';
 
 interface SaleTypes {
     idVenta: number;
