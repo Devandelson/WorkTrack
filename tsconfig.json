@@ -1,7 +1,22 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
+  "compilerOptions": {
+    "target": "ES2019", // versión de JS de salida
+    "module": "CommonJS", // módulo compatible con Node
+    "rootDir": "src", // carpeta de entrada
+    "outDir": "dist", // carpeta de salida
+    "esModuleInterop": true, // compatibilidad con import/export
+    "strict": true // buenas prácticas
+  },
+  "include": ["src/api/**/*"],
+ "exclude": [
+    "node_modules",
+    "src/components",
+    "src/context",
+    "src/assets",
+    "src/App.tsx",
+    "src/main.tsx",
+    "src/index.css",
+    "src/vite-env.d.ts",
+    "vite.config.ts"
   ]
 }
