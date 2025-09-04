@@ -1,7 +1,7 @@
 import { Router } from "express";
 import type { Request, Response } from "express";
-import employeeRouter from './employee.route.ts';
-import saleRouter from './sale.route.ts';
+import employeeRouter from './employee.route';
+import saleRouter from './sale.route';
 
 const indexRouter = Router();
 

@@ -1,4 +1,4 @@
-import * as employeeService from "../services/employee.service.ts";
+import * as employeeService from "../services/employee.service";
 import type { Request, Response } from "express";
 
 interface empleadoController {

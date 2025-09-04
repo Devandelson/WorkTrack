@@ -1,5 +1,5 @@
 import { Router } from "express";
-import * as employeeController from "../controllers/employee.controller.ts";
+import * as employeeController from "../controllers/employee.controller";
 const employeeRouter = Router();
 
 employeeRouter.get(`/`, employeeController.getEmployees);

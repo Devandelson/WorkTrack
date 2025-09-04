@@ -1,5 +1,5 @@
 import { Router } from "express";
-import * as saleController from '../controllers/sale.controller.ts';
+import * as saleController from '../controllers/sale.controller';
 const saleRotuer = Router();
 
 saleRotuer.get('/', saleController.getSales);

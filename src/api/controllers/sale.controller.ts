@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import * as SaleService from '../services/sale.service.ts';
+import * as SaleService from '../services/sale.service';
 
 export const getSales = (req: Request, res: Response) => {
     SaleService.getSales().then((result) => {
