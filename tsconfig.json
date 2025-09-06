@@ -1,24 +1,11 @@
 {
-  "compilerOptions": {
-    "target": "ESNext", // versión de JS de salida
-    "module": "ES2020", // módulo compatible con Node
-    "rootDir": "src", // carpeta de entrada
-    "outDir": "dist", // carpeta de salida
-    "esModuleInterop": true, // compatibilidad con import/export
-    "strict": true, // buenas prácticas
-    "moduleResolution": "node",
-    "skipLibCheck": true
-  },
-  "include": ["src/api/**/*"],
- "exclude": [
-    "node_modules",
-    "src/components",
-    "src/context",
-    "src/assets",
-    "src/App.tsx",
-    "src/main.tsx",
-    "src/index.css",
-    "src/vite-env.d.ts",
-    "vite.config.ts"
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
   ]
 }

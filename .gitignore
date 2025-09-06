@@ -30,14 +30,5 @@ dist-ssr
 .http
 
 #carpetas omitidas para la api
-src/assets/
-src/components/
-src/context/
-src/App.tsx
-src/index.css
-src/main.tsx
-src/vite-env.d.ts
-
-vite.config.ts
-
+src/api
 
