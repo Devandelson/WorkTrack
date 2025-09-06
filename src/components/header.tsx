@@ -6,7 +6,7 @@ export default function Header() {
         <header className='w-full h-auto flex items-center justify-between mb-8 gap-5 animate-sway'>
             <section className='flex items-center gap-4'>
                 <img src={logo} alt="Logo" className='size-12' />
-                <h1 className='text-3xl'><b>CrudTalens</b></h1>
+                <h1 className='text-3xl'><b>WorkTrack</b></h1>
             </section>
 
             <section className='flex items-center gap-2'>
