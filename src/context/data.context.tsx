@@ -38,7 +38,7 @@ export function DataProvider({ children }: { children: ReactNode }): ReactElemen
         async function fetchToken() {
             try {
                 const response = await axios.get('https://apirestsale.onrender.com/GetToken' , 
-                {headers: {passGet: '$2y$06$k6g.jmkN8MYo9cqfgmnSaOXhKxoB7tSe2E0/1rRxHQuTEEBLyHS3W'}});
+                {headers: {passget: '$2y$06$k6g.jmkN8MYo9cqfgmnSaOXhKxoB7tSe2E0/1rRxHQuTEEBLyHS3W'}});
                 
                 if (response.data.message) {
                     Swal.fire(`Error desconocido: ${response.data.message}`);
